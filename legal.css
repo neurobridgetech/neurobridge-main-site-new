@@ -1,0 +1,51 @@
+.legal-data {
+    gap: var(--dl-space-space-fiveunits);
+    width: 100%;
+    /* display: flex; */
+    max-width: var(--dl-size-size-maxwidth);
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-fiveunits);
+    padding-left: var(--dl-space-space-fiveunits);
+    padding-right: var(--dl-space-space-fiveunits);
+    flex-direction: column;
+    padding-bottom: var(--dl-space-space-fiveunits);
+}
+
+@media (max-width:767px) {
+    .legal-data {
+        padding-top: var(--dl-space-space-threeunits);
+        padding-left: var(--dl-space-space-oneandhalfunits);
+        padding-right: var(--dl-space-space-oneandhalfunits);
+        padding-bottom: var(--dl-space-space-threeunits);
+    }
+}
+
+.legal-doc-section {
+    /* background-color: #1a1a1a; */
+    /* Dark background for a black-themed site */
+    color: #ffffff;
+    /* White text for readability */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    /* A neutral font, but you can replace this with the font used on your site */
+}
+
+.legal-doc-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #444;
+    padding-bottom: 10px;
+}
+
+.legal-doc-section h3 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.legal-doc-section p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}

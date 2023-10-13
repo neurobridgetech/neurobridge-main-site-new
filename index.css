@@ -1056,7 +1056,7 @@
 
 @media (max-width:767px) {
   .footer-image {
-    width: -webkit-fill-available;
+    width: 50vw;
     object-fit: cover;
   }
 }
