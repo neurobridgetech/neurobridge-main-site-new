@@ -953,6 +953,7 @@
 .home-image5 {
   width: 440px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .home-accordion {
@@ -1777,5 +1778,30 @@
 
   .home-button6 {
     justify-content: center;
+  }
+}
+
+/* About Page */
+
+.about-container {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-caption {
+  color: rgb(124, 124, 128);
+  width: 100%;
+  font-size: 24px;
+  max-width: 70vw;
+  line-height: 36px;
+}
+
+@media (max-width:767px) {
+  .about-caption {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
